@@ -1,0 +1,15 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --title-text-color: 
+}
+
+/* основной цвет текста #212121
+вторичный цвет текста  #757575
+акцент #2196F3 */
+
+body {
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
