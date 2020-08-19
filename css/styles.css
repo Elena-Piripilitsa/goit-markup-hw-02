@@ -1,19 +1,70 @@
+/* основной цвет текста #212121
+вторичный цвет текста #757575
+цвет-акцент #2196F3
+основной цвет фона #ffffff
+вторичный цвет фона  #2F303A
+дополнительный цвет фона(для команды и кнопок-фильтров) #F5F4FA
+ */
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
-    --title-text-color: ;
     --primary-backround-color: #ffffff;
     --secondary-backround-color: #2F303A;
+    --accessorial-background-color: #F5F4FA;
 }
-
-/* основной цвет текста #212121
-вторичный цвет текста  #757575
-акцент #2196F3 */
 
 body {
     background-color: var(--primary-backround-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Логотип */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+	font-size: 26px;
+    line-height: 1.19;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.logo > span{
+    color: var(--accent-color);
+}
+
+/* Навигация */
+.site-nav{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link{
+    color: var(--primary-text-color);
+}
+
+.auth-nav .link{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em
+}
+
+.link:hover,
+.link:focus,
+.link:active,
+.site-nav .link.current{
+    color: var(--accent-color);
 }
