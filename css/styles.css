@@ -25,11 +25,11 @@ body{
     letter-spacing: 0.03em;
 }
 
-ul{
+.list{
     list-style: none;
 }
 
-a{
+.link{
     text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ a{
     font-weight: 700;
 	font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo > span{
@@ -47,18 +48,19 @@ a{
 }
 
 /* Навигация */
-.site-nav .link{ 
-    color: var(--primary-text-color);
+.site-nav .link,
+.auth-nav .link{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
+.site-nav .link{ 
+    color: var(--primary-text-color);
+}
+
 .auth-nav .link{
     color: var(--secondary-text-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em
 }
 
 .link:hover,
@@ -106,7 +108,6 @@ a{
 
 .feature-title{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -128,11 +129,11 @@ a{
     width: 270px;
 }
 
-.team-card  h3{
+.team-card  .subtitle{
     font-weight: 500;
 }
 
-.team-card h3,
+.team-card .subtitle,
 .team-card .career{
     font-size: 16px;
     line-height: 1.19;
@@ -191,7 +192,7 @@ a{
     border: 1px solid #EEEEEE;
 }
 
-.portfolio h2{
+.portfolio .title{
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -199,7 +200,7 @@ a{
     letter-spacing: 0.06em;
 }
 
-.portfolio p{
+.portfolio .text{
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.87;
