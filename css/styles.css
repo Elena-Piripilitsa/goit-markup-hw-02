@@ -21,6 +21,8 @@ body{
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
 }
 
 ul{
@@ -38,7 +40,6 @@ a{
 	font-size: 26px;
     line-height: 1.19;
     color: var(--primary-text-color);
-    letter-spacing: 0.03em;
 }
 
 .logo > span{
@@ -102,22 +103,18 @@ a{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .feature-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .section-item{
     color: var(--secondary-text-color);
-    font-weight: 400;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /* Секция команда */
@@ -137,7 +134,6 @@ a{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .career{
@@ -158,15 +154,11 @@ a{
 .page-footer .address{
     color: var(--title-text-color);
     font-style: normal;
-    font-weight: 400;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .page-footer .link{
-    font-weight: 400;
     font-size: 14px;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -181,7 +173,6 @@ a{
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--accessorial-background-color);
     border-radius: 4px;
@@ -212,9 +203,7 @@ a{
 }
 
 .portfolio p{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
