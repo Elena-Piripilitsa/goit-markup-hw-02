@@ -128,14 +128,12 @@ a{
     width: 270px;
 }
 
-.team-card > h3{
+.team-card  h3{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
 }
 
-.career{
+.team-card h3,
+.team-card .career{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
